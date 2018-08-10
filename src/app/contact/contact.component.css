@@ -1,0 +1,64 @@
+.tech-block-01{position:relative;width:100%;height:710px;padding:120px 0;background:url("/src/assets/images/contact/block01-bg.png") center 0.1px no-repeat;}
+.tech-block-01 .tech-block-01-bg{background:url("/src/assets/images/contact/block01-image.png") no-repeat center bottom;position:absolute;width:100%;height:100%;top:0;}
+.tech-block-01 .title{width:561px;height:40px;margin-left:260px;margin-right:auto;position:relative;margin-top:40px;text-align:center;cursor:default;z-index:5;font-size:50px;font-family:"Microsoft YaHei",微软雅黑,Arial,sans-serif;}
+.tech-block-01 .block-01-main{position:relative;height:initial;float:right;margin-top:70px;}
+.tech-block-01 .block-01-main .font-block{float:left;margin-bottom:20px;width:700px;}
+.tech-block-01 .block-01-main .font-block .t1{display:block;color:#000000;border-bottom:solid 1px #000000;font-size:26px;line-height:40px;width:180px;}
+.tech-block-01 .block-01-main .font-block .font-1{font-size:18px;color:#000000;}
+.tech-block-01 .block-01-main .font-block .font-2{font-size:16px;line-height:28px;color:#000000;margin-top:10px;}
+.tech-block-02{position:relative;width:100%;height:650px;padding:70px 0;background:url("/src/assets/images/contact/block02-bg.png") top center no-repeat;}
+.tech-block-02 .tech-block-02-bg{width:100%;height:100%;position:absolute;top:0;}
+.tech-block-02 .tech-block-02-bg .block02-img{width:100%;height:100%;position:absolute;top:0;right:0;}
+.tech-block-02 .tech-block-02-bg .i00{position:relative;z-index:2;background:url("/src/assets/images/contact/block02-arrow.png") center;}
+.tech-block-02 .tech-block-02-bg .i01{background:url("/src/assets/images/contact/block02-image01.png") center;}
+.tech-block-02 .tech-block-02-bg .i02{background:url("/src/assets/images/contact/block02-image02.png") center;}
+.tech-block-02 .tech-block-02-bg .i03{background:url("/src/assets/images/contact/block02-image03.png") center;}
+.tech-block-02 .tech-block-02-bg .i04{background:url("/src/assets/images/contact/block02-image04.gif?v=1234") center;}
+.tech-block-02 .block-02-main{position:relative;width:720px;height:initial;float:left;margin-left:100px;z-index:3;}
+.tech-block-02 .block-02-main .font-block{float:left;position:relative;margin-bottom:30px;}
+.tech-block-02 .block-02-main .font-block .font-1{width:400px;font-size:24px;color:#CDB993;line-height:40px;border-bottom:1px solid #CDB993;}
+.tech-block-02 .block-02-main .font-block .font-2{margin-top:10px;line-height:20px;color:#ffffff;} 
+
+.col.ic1{display:inline-block;background:url(/src/assets/images/contact/icon1.png) no-repeat 0 center;height:32px;background-size:27px;padding-left:38px;padding-right:10px;vertical-align:middle;}
+.col.ic2{display:inline-block;background:url(/src/assets/images/contact/icon2.png) no-repeat 0 center;height:32px;background-size:27px;padding-left:38px;padding-right:10px;vertical-align:middle;}
+.col.ic3{display:inline-block;background:url(/src/assets/images/contact/icon3.png) no-repeat 0 center;height:32px;background-size:27px;padding-left:38px;padding-right:10px;vertical-align:middle;}
+.col.ic4{display:inline-block;background:url(/src/assets/images/contact/icon4.png) no-repeat 0 center;height:32px;background-size:27px;padding-left:38px;padding-right:10px;vertical-align:middle;}
+.col.ic5{display:inline-block;background:url(/src/assets/images/contact/icon5.png) no-repeat 0 center;height:32px;background-size:27px;padding-left:38px;padding-right:10px;vertical-align:middle;}
+
+.cbox
+ {
+    width:50%;
+ 
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 768px) {
+.tech-block-01{position:relative;width:100%;height:710px;padding:0px 0;background:url("/src/assets/images/contact/block01-bg.png") center 0.1px no-repeat;}
+.tech-block-01 .title{width:200px;height:40px;margin-left:0px;margin-right:auto;position:relative;margin-top:40px;text-align:center;cursor:default;z-index:5;font-size:50px;font-family:"Microsoft YaHei",微软雅黑,Arial,sans-serif;}
+.tech-block-01 .block-01-main{position:relative;height:initial;float:right;margin-top:70px;}
+.tech-block-01 .block-01-main .font-block{float:left;margin-bottom:20px;width:350px;}
+.tech-block-01 .block-01-main .font-block .font-1{font-size:18px;color:#000000;}
+.tech-block-01 .block-01-main .font-block .font-2{font-size:16px;line-height:28px;color:#000000;margin-top:10px;}
+
+.cbox
+ {
+    width:100%;
+}
+}
+
+@media screen and (max-width: 568px) {
+    .tech-block-01{position:relative;width:100%;height:710px;padding:0px 0;background:url("/src/assets/images/contact/block01-bg.png") center 0.1px no-repeat;}
+.tech-block-01 .title{width:200px;height:40px;margin-left:0px;margin-right:auto;position:relative;margin-top:40px;text-align:center;cursor:default;z-index:5;font-size:50px;font-family:"Microsoft YaHei",微软雅黑,Arial,sans-serif;}
+.tech-block-01 .block-01-main{position:relative;height:initial;float:right;margin-top:70px;}
+.tech-block-01 .block-01-main .font-block{float:left;margin-bottom:20px;width:300px;}
+.tech-block-01 .block-01-main .font-block .font-1{font-size:18px;color:#000000;}
+.tech-block-01 .block-01-main .font-block .font-2{font-size:16px;line-height:28px;color:#000000;margin-top:10px;}
+
+.cbox
+ {
+    width:100%;
+}
+
+}

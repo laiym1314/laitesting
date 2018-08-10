@@ -1,0 +1,83 @@
+.template .template-block-02 .block-02-main{position:relative;}
+.template .template-block-02 .block-02-main .block02-icon{position:relative;margin-top:100px;}
+.template .template-block-02 .block-02-main .block02-icon .icon-block{width:150px;float:left;text-align:center;margin:0 44px;}
+.template .template-block-02 .block-02-main .block02-icon .icon-block img{margin-left:15px;}
+.template .template-block-02 .block-02-main .block02-icon .icon-block .font{font-size:18px;color:#9f9f9f;margin-top:30px;}
+.template .template-block-02 .block-02-main .block02-icon .arrow-block{width:20px;height:150px;float:left;background:url("/src/assetsimages/template/block02-arrow.png") no-repeat 0 50px;}
+
+.template {
+
+    background: url(/src/assets/images/about/block02-bg.png)center;
+    width: 100%;
+    height: 340px;
+
+}
+
+.box3
+{
+    padding-top: 5%;
+    width:25%;
+    float: left;
+    color:white;
+    text-align: center;
+    color: #9f9f9f;
+    margin-top: 15px;
+margin-left:3%;
+}
+
+.box2
+{
+    padding-top: 15%;
+    width:7.5%;
+    float: left;
+    color:white;
+    text-align: center;
+}
+
+
+#content1 {display: block;}
+#content2 {display: none;}
+
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 568px) {
+    #content1 {display: none;}
+    #content2 {display: block;}
+
+    .box3
+{
+    padding-top: 5%;
+    width:100%;
+    float: left;
+    color:white;
+    margin-left:0%;
+}
+
+.box2
+{
+    padding-top: 15%;
+    width:7.5%;
+    float: left;
+    color:white;
+}
+.template {
+
+    background: url(/src/assets/images/about/block02-bg.png)center;
+    width: 100%;
+    height: 50%;
+
+}
+
+.template .template-block-02 .block-02-main{position:relative;}
+.template .template-block-02 .block-02-main .block02-icon{position:relative;margin-top:100px;}
+.template .template-block-02 .block-02-main .block02-icon .icon-block{width:150px;float:left;text-align:center;margin:0 44px;}
+.template .template-block-02 .block-02-main .block02-icon .icon-block img{margin-left:15px;}
+.template .template-block-02 .block-02-main .block02-icon .icon-block .font{font-size:18px;color:#9f9f9f;margin-top:30px;}
+.template .template-block-02 .block-02-main .block02-icon .arrow-block{width:20px;height:150px;float:left;background:url("/src/assetsimages/template/block02-arrow.png") no-repeat 0 50px;}
+
+}

@@ -1,0 +1,100 @@
+
+.intro_global
+{
+    background: url(/src/assets/images/intro/block02-bg.png) center;
+    width: 100%;
+    height: 85%;
+    position: relative;
+    top: 0;
+
+}
+
+.game-sort-list{border-top:1px solid #ddd;}
+.game-sort-list h4{margin:10px 0;}
+.game-sort{font-size:0;border: 1px solid rgba(136, 125, 101, 0.24);padding-left: 1px;}
+.game-sort>li{display:inline-block;min-width:85px;font-size:14px;padding:10px 5px;margin:10px 0;border-right:1px solid #ddd;}
+.game-sort>li>a{display:block;}
+.game-sort>li>a:hover{opacity:0.7;filter:opacity(70);}
+.game-sort>li>a>img{display:block;margin:0 auto;margin-bottom:10px;}
+.game-sort>li>a>span{display:block;text-align:center;color:#555;}
+.game-sort>li:nth-child(7n){border-right:none;}
+.game-sort-title{color:#666;font-weight:bold;}
+
+.box
+{
+    background: url(/src/assets/images/intro/a-bg4.png)left;
+
+    margin-top: -10px;
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 85%;
+    padding-left: 17%;
+}
+.intro_global .intro-block-02{background-size:cover;position: relative;width:100%;height:100%;background:url(/src/assets/images/intro/block06-bg.png)bottom no-repeat;}
+.intro_global  .block-02-main{margin-top:50px;position:relative;float:left;width:650px;height:initial;}
+.intro_global  .block-02-main .block-info{background:url("/src/assets/images/intro/block06-icon.gif") no-repeat;padding-left:90px;}
+.intro_global  .block-02-main .block-info .info-top{border-left:1px solid #000000;padding-left:20px;margin-bottom:30px;}
+.intro_global  .block-02-main .block-info .info-top .font-1{font-size:26px;color:#000000;margin-bottom:10px;}
+.intro_global  .block-02-main .block-info .info-top .font-2{color:#000000;font-size:18px;line-height:30px;width:420px;}
+
+@media screen and (max-width: 1366px) {
+
+    .intro_global {
+        background: url(/src/assets/images/intro/block02-bg.png) center;
+        width: 100%;
+        height: 950px;
+        position: relative;
+        top: 0;
+    }
+    .intro_global[_ngcontent-c3] .block-02-main1[_ngcontent-c3] {
+        margin-top: 50px;
+        position: relative;
+        float: left;
+        width: 600px;
+        height: initial;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 568px) {
+
+    .intro_global {
+        background: url(/src/assets/images/intro/block02-bg.png) center;
+        width: 100%;
+        height: 850px;
+        position: relative;
+        top: 0;
+        
+    }
+
+    .intro_global .block-02-main .block-info .info-top .font-2 {
+        color: #000000;
+        font-size: 12px;
+        line-height: 30px;
+        width: 150px;
+    }
+    .intro_global .block-02-main {
+        margin-top: 50px;
+        position: relative;
+        float: left;
+        width: 250px;
+        height: initial;
+    }
+    .intro_global .intro-block-02{position: absolute;width:100%;height:0%;background:url(/src/assets/images/intro/block04-image.png)bottom no-repeat;}
+
+    img
+    {
+        width: 100%;
+    }
+    .game-sort > li {
+        display: inline-block;
+        min-width: 0px;
+        font-size: 14px;
+        padding: 10px 5px;
+        margin: 0px 0;
+        border-right: 1px solid #ddd;
+    }
+}

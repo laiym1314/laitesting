@@ -1,0 +1,43 @@
+
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" routerLink="home">蟠龙</a>
+        <button class="navbar-toggler" style="transition: all 5s ease-in;" type="button" (click)="isCollapsed = !isCollapsed"   data-toggle="collapsed" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" [collapse]="isCollapsed">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+                 <ul class="navbar-nav mr-auto">
+            <li class="nav-item  active">
+              <a class="nav-link" routerLink="home">蟠龙首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="advantage">蟠龙优势 <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item ">
+                <a class="nav-link" routerLink="info">游戏种类 <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item ">
+                  <a class="nav-link" routerLink="about">服务方案 <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item ">
+                    <a class="nav-link" routerLink="project">成功方案 <span class="sr-only">(current)</span></a>
+         </li>
+            <li class="nav-item ">
+                      <a class="nav-link" routerLink="ngame">蟠龙棋牌 <span class="sr-only">(current)</span></a>
+             </li> 
+             <li class="nav-item ">
+                <a class="nav-link" routerLink="contactus">联系我们 <span class="sr-only">(current)</span></a>
+       </li>
+         </ul>
+          </form>
+        </div>
+      </nav>
+
+
+
+              
+                      <router-outlet></router-outlet> 
+                    

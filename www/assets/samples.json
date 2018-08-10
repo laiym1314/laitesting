@@ -1,0 +1,10 @@
+[
+    {"picture":"/src/assets/images/sample/s1.png","name":"模板1","id":1},
+    {"picture":"/src/assets/images/sample/s2.png","name":"模板2","id":2},
+    {"picture":"/src/assets/images/sample/s3.png","name":"模板3","id":3},
+    {"picture":"/src/assets/images/sample/s4.png","name":"模板4","id":4},
+    {"picture":"/src/assets/images/sample/s5.png","name":"模板5","id":5},
+    {"picture":"/src/assets/images/sample/s6.png","name":"模板6","id":6},
+    {"picture":"/src/assets/images/sample/s7.png","name":"模板7","id":7},
+    {"picture":"/src/assets/images/sample/s8.png","name":"模板8","id":8}
+]

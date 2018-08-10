@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'node_modules/bootstrap/dist/css/bootstrap.css';
+@import 'node_modules/font-awesome/css/font-awesome.css';
+
+.contact{padding:0;color:#8a8a8a;padding: 40px 0;background:#0f0f0f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAZlBMVEUAAAAaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhrOeG4GAAAAIXRSTlMAS8S8y907Lg6JgQXy50SPNGvUQJegh3Kve12oZlMktRhB66e+AAADHUlEQVQ4y01TibaqMBALe9lEQAHXa/7/J19S8B09h9olk0mnEyDh9sZp4lYBn+ZCsuvIYmgCUG1MS5TsEuNy4M7C01yoy6Ax98Br4hMmwvAE4zJmwDwJJVZMBe8ASpGnLcqUiTiJFEh9kLFPfBzAS5Hj5MVCNj6+oSI+gry8ugLt0rE9875SJ4UwIXeuyGkVd1S55m1tXRgoTSUscgEapjsSZ8f0mp3IuuYZeQFww8jnn0GJh45A0ccI335GV6CykAfR8s97Jw1ZZOOMzDgHbqxQEE5TY4y72rkwsZ5MHNeI07DEb3hJIZBFPRIyEaHHOyanPueADrxoHehae/Mt/hUolbzm26RmqfDn6r04IjGy4VmSWyCKUsh1x5njNiguJk4VshUodY6PFC5cYtEy3bQ6BLgU3tlWUU6ibBRNMi/RptxcUhzFS8Xj9IoaGZQSZdeU3jKFn2h9HoId7vxoFcMLArTMvVvm3+K9hPTs0sI/aeWK9jxM1hhJTcY+IIl0tUTdxPTIwdTPPz1btHrbEJOW7GdHuX/cKXxIYMfucjf7QN6A1Y2Myi2NNO4gPK+yB+yP8QXgmVvQk93st04/OPfMRdGOY28g8yVaRYIaSbQjzrH1npE1kXpuTUpwBDBfJDoc/auTLPqoxZyzq60rvyLPMb/h+0VHaDhx2o2Cq0UePhLAHeL7pV9/zMEv7Y26RTXIRxXH2B0SawXj4Q/PbiL27OujFoEP3OQPS3INFXU0htun4GofTQXc/4D9cbSpUfbS/phFufto9Y25YPk+ca3JzXW5eufbygUD8JaqFtkef7SxOWqUe18M+kassJrczj0diRfUr4jvf3zUduAdDRuU0R/6Hk5z1q2XXx+lxKQ/J55z+2P3jwkrLVWKw0davH/8ke3+QBD4Qj394KMH/PaHjFR7rhonjPw8ia+PjIPLhfK/P6rdH+A4/vpoz7fChfv6Y979ce03BFd499EkyJ0gzwJNhz8a+8N91FaDhIz/fZTHB/EwhMMf6aavsJ2bgI9aKogvtVE7OSlkLFYghFpEXcfH8HTytY8+Mu4fALhTAleM4ykAAAAASUVORK5CYII=);}
+
+
+.footer1 {background:#222;}
+.footer1 .footer1-info{padding:20px 0;}
+.footer1-copyright{border-top:1px solid #333333;padding:10px 0;}
+.footer1-copyright .copyright{text-transform:uppercase;font-size:13px;padding-top:14px;color:#8a8a8a;}
+.footer1-copyright .copyright>a{color:#b81c22;}
+.footer1-copyright .copyright>a:hover{color:#dddddd;}
+.footer1-copyright .gotop{color:#a08c64;text-align:right;}
+.footer1-copyright .gotop a{width:48px;height:48px;line-height:48px;display:inline-block;text-align:center;border:1px solid #b81c22;border-radius:2px;color:#b81c22;}
+.footer1-copyright .gotop a:hover{opacity:0.6;filter:opacity(60);}
+.footer1-copyright .gotop a>img{display:block;padding:10px 0 0 10px;}
+
+
+.contact{padding:0;color:#8a8a8a;padding: 40px 0;background:#0f0f0f;}
+.contact p{line-height:1.5em;}
+.contact h3{font-size:24px;color:#fff;padding:20px 0;}
+.contact h4{font-size:20px;}
+.contact-box{height:120px;}
+.contact-box:after{display:inline-block;width:0;height:100%;vertical-align:middle;content:"";}
+.contact-box>.contact-info{display:inline-block;vertical-align:bottom;}
+.contact-box>.contact-info a,.text-gold{color:#b81c22;}
+.contact-box>.contact-info a:hover{color:#dddddd;}
+
+body
+{
+    width:100%;
+}
